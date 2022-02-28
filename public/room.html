@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+
+    <div class="inputs">
+      <label for="">Oda Adı:</label>
+      <input type="text" autocomplete="off" placeholder="Oda ismi" id="room-name" /> <br>
+      <button id="create-room" class="btn btn-success">Oda Oluştur</button> <br>
+    </div>
+
+
+    <div class="container rooms">
+      <div id="rooms" class="row my-2">
+
+      </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.4.1/socket.io.min.js"></script>
+    <script src="room.js"></script>
+  </body>
+</html>
